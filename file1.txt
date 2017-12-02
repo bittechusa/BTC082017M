@@ -1,0 +1,7 @@
+cd ---> change directory
+pwd---> present work directory
+vi---->editor
+touch----to create a file
+mkdir----> to create folder
+cat----> to view file
+nano----editor
