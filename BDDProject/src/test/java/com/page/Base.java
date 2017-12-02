@@ -7,6 +7,7 @@ public class Base {
 	public void test1()
 	{
 		System.out.println("hi");
+		System.out.println("shahid");
 	}
 
 }
