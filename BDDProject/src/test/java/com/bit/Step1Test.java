@@ -26,7 +26,7 @@ public class Step1Test
 		else if(s.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver", "/Users/bittechconsulting/Downloads/geckodriver");
 			dr = new FirefoxDriver();
-			System.out.println("nvhn");
+			System.out.println("samiul");
 		}
 		else if(s.equals("ie")) {
 			System.setProperty("webdriver.ie.driver", "/Users/bittechconsulting/Downloads/iedriver");
