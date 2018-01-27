@@ -11,7 +11,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 
-public class Step1 
+public class Step1Test 
 {
 	WebDriver dr;
 	@Given("^open browser$")
@@ -26,6 +26,7 @@ public class Step1
 		else if(s.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver", "/Users/bittechconsulting/Downloads/geckodriver");
 			dr = new FirefoxDriver();
+			System.out.println("nvhn");
 		}
 		else if(s.equals("ie")) {
 			System.setProperty("webdriver.ie.driver", "/Users/bittechconsulting/Downloads/iedriver");
